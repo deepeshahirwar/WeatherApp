@@ -106,8 +106,9 @@ body {
     margin-top: 10px;
     margin-left: 25px;
     display: none;
-} 
+}  
 
+/* for mobiles */
 @media (min-width: 250px) and (max-width: 400px) {
    .search  input{
        padding: 0px; 
@@ -115,7 +116,4 @@ body {
        padding-left: 10px;
    }  
    
-   body{
-    background: #313131;
-   }
   }
