@@ -50,7 +50,7 @@ body {
 }
 
 .search button img {
-    width: 30px;
+    width: 20px;
 }
 
 .weather-icon {
@@ -106,4 +106,16 @@ body {
     margin-top: 10px;
     margin-left: 25px;
     display: none;
-}
+} 
+
+@media (min-width: 250px) and (max-width: 400px) {
+   .search  input{
+       padding: 0px; 
+       width: 5rem; 
+       padding-left: 10px;
+   }  
+   
+   body{
+    background: #313131;
+   }
+  }
